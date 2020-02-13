@@ -14,7 +14,7 @@ Package for manual and autonomous control of the Minitaur E from Ghost Robotics,
 ## Installation
 1. After installing ROS, [create a catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace), if you haven't already.
 
-2. Clone this directory to .../catkin_ws/src.
+2. Clone this directory to (YOUR CATKIN_WS LOCATION)/src
 
 ```python
 git clone https://github.com/AaronBarbosa12/MinitaurE_ROS.git
