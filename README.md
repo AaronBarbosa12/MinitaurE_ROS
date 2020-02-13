@@ -17,7 +17,7 @@ Package for manual and autonomous control of the Minitaur E from Ghost Robotics,
 2. Clone this directory to .../catkin_ws/src.
 
 ```python
-git clone 
+git clone https://github.com/AaronBarbosa12/MinitaurE_ROS.git
 ```
 
 ## How To Use This Package
