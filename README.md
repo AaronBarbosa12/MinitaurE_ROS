@@ -17,8 +17,28 @@ Package for manual and autonomous control of the Minitaur E from Ghost Robotics,
 
 2. Clone the contents of this directory to (YOUR CATKIN_WS LOCATION)/src
 
+3. Build the workspace 
+```python
+cd (YOUR CATKIN_WS LOCATION)
+catkin_make
+```
+
 ## How To Use This Package
-1. Start the ROS Master
+1.
+
+2. 
+3. Open a terminal and start the ROS Master
 ```python
 roscore
+```
+
+4. Open another terminal and open start the local ROS nodes 
+```python
+roslaunch minitaur_ros minitaur_client_nodes.launch
+```
+
+4. Open another terminal and open start the ROS nodes on the onboard computer (MAKE SURE THAT THE ROBOT IS SUPPORTED BENEATH - THE LEGS WILL GO LIMP BRIEFLY) 
+```python
+ssh odroid@10.42.0.1
+roslaunch minitaur_ros minitaur_seraunch
 ```
