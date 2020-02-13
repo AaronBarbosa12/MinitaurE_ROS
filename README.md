@@ -12,3 +12,10 @@ Package for manual and autonomous control of the Minitaur E from Ghost Robotics,
 * You'll need TWO wifi capable adapters (One for connecting to the robot's onboard computer, and another for connecting to the LIDAR's wifi network)
 
 ## Installation
+1. Create a catkin workspace
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+## How To Use This Package
