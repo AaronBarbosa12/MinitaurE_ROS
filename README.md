@@ -1,6 +1,8 @@
 # MinitaurE_ROS
 Package for manual and autonomous control of the Minitaur E from Ghost Robotics, using the Robot Operating System (ROS)
 
+![Test Image 6](master/images/minitaur.jpeg)
+
 ## Requirements
 ## Hardware
 * This SDK was written with the assumption that the Minitaur E uses a [SLAMETECH MAPPER M1M1 (Developer Edition)](https://www.slamtec.com/en/Lidar/Mapper) for autonomous navigation. 
