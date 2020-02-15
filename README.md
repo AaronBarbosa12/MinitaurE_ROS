@@ -24,9 +24,6 @@ catkin_make
 ```
 
 ## How To Use This Package
-1.
-
-2. 
 3. Open a terminal and start the ROS Master
 ```python
 roscore
