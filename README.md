@@ -1,7 +1,7 @@
 # MinitaurE_ROS
 Package for manual and autonomous control of the Minitaur E from Ghost Robotics, using the Robot Operating System (ROS)
 
-![Test Image 6](images/minitaur.jpeg)
+![Test Image 6](images/minitaur.jpeg | width=100)
 
 ## Requirements
 ## Hardware
