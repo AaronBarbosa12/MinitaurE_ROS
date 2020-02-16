@@ -6,11 +6,14 @@ Package for manual and autonomous control of the Minitaur E from Ghost Robotics,
 ## Requirements
 ## Hardware
 * This SDK was written with the assumption that the Minitaur E uses a [SLAMETECH MAPPER M1M1 (Developer Edition)](https://www.slamtec.com/en/Lidar/Mapper) for autonomous navigation. 
-![Mapper Image](images/mapper.png)
-* Manual control of the robot is achieved with an [XBOX ONE WIRELESS CONTROLLER](https://www.amazon.com/Xbox-Wireless-Controller-Black-one/dp/B01LPZM7VI?th=1) 
-* MinitaurE_ROS 
 
-![Mapper Image](images/comp_network.png)
+![Mapper Image](images/mapper.png)
+
+* MinitaurE_ROS assumes that there are two computers connected to the same network: one directly mounted to the Minitaur itself (which sends movement commands over USB), and a MAIN_COMPUTER, which is used to remotely control the robot. 
+
+![Network Image](images/comp_network.png)
+
+* Manual control of the robot is achieved with an [XBOX ONE WIRELESS CONTROLLER](https://www.amazon.com/Xbox-Wireless-Controller-Black-one/dp/B01LPZM7VI?th=1), connected to the MAIN_COMPUTER.
 
 ## Software
 * Create a machine running Ubuntu 18.04+
