@@ -1,0 +1,10 @@
+<launch>
+
+<!-- Start Joystick Control -->
+<node pkg="joy" name="joy" type="joy_node" output="screen" ></node>
+
+
+<!-- Start Navigation Stack --> 
+
+<include file="$(find start_minitaur_nav)/launch/start_minitaur_nav.launch"></include>
+

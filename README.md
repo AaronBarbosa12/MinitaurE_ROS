@@ -19,7 +19,7 @@ Package for manual and autonomous control of the Minitaur E from Ghost Robotics,
 * Create a machine running Ubuntu 18.04+ (both machines)
 * [Install ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) (both machines)
 * [Install the Ghost Robotics SDK](https://gitlab.com/ghostrobotics/SDK/-/jobs/artifacts/master/download?job=deploy_artifact) (MINITAUR_COMPUTER only)
-* You'll need TWO wifi capable adapters (One for connecting to the robot's onboard computer, and another for connecting to the LIDAR's wifi network) (MAIN_COMPUTER only)
+* You'll need TWO wifi capable adapters (One for connecting to the robot's onboard computer, and another for connecting to the LiDAR's wifi network) (MAIN_COMPUTER only)
 
 ## Installation
 1. After installing ROS, [create a catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace), if you haven't already.
@@ -35,7 +35,7 @@ catkin_make
 4. Modify the bashrc on BOTH COMPUTERS so that the ROS_IP ROS_MASTER_URI and ROS_HOSTNAME_IP have the correct values 
 
 ## How To Use This Package
-1. Make sure you're connected to the network of the lidar and that of the MINITAUR_COMPUTER
+1. Turn on the LiDAR and the MINITAUR_COMPUTER. Make sure you're connected to the network of the LiDAR and that of the MINITAUR_COMPUTER
 
 ![Both Nets](images/wifi_nets.png)
 
@@ -44,20 +44,20 @@ catkin_make
 roscore
 ```
 
-4. Open another terminal and open start the local ROS nodes 
+4. Open another terminal and start the local ROS nodes 
 ```python
 roslaunch minitaur_ros minitaur_client_nodes.launch
 ```
 
 5. Turn on the minitaur
 
-6. Open another terminal and open start the ROS nodes on the onboard computer (MAKE SURE THAT THE ROBOT IS SUPPORTED BENEATH - THE LEGS WILL GO LIMP BRIEFLY) 
+6. Open another terminal and start the ROS nodes on the onboard computer (MAKE SURE THAT THE ROBOT IS SUPPORTED BENEATH - THE LEGS WILL GO LIMP BRIEFLY) 
 ```python
 ssh odroid@10.42.0.1
 roslaunch minitaur_ros minitaur_odroid_nodes.launch
 ```
 
-7. You should now be able to control the robot via a controller or through the \cmd_vel topic. You can also use rviz to give the robot waypoints
+7. You should now be able to control the robot via a USB controller or through the \cmd_vel topic. You can also use rviz to give the robot waypoints.
 
 
 ![Interface](images/rviz.png)
