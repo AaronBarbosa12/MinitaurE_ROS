@@ -32,7 +32,7 @@ cd (YOUR CATKIN_WS LOCATION)
 catkin_make
 ```
 
-4. Modify the bashrc on BOTH COMPUTERS so that the ROS_IP ROS_MASTER_URI and ROS_HOSTNAME_IP have the correct values 
+4. Modify the bashrc on BOTH COMPUTERS so that the ROS_IP, ROS_MASTER_URI and ROS_HOSTNAME_IP have the correct values 
 
 ## How To Use This Package
 1. Turn on the LiDAR and the MINITAUR_COMPUTER. Make sure you're connected to the network of the LiDAR and that of the MINITAUR_COMPUTER
@@ -51,7 +51,7 @@ roslaunch minitaur_ros minitaur_client_nodes.launch
 
 5. Turn on the minitaur
 
-6. Open another terminal and start the ROS nodes on the onboard computer (MAKE SURE THAT THE ROBOT IS SUPPORTED BENEATH - THE LEGS WILL GO LIMP BRIEFLY) 
+6. Open another terminal and start the ROS nodes on the onboard computer (MAKE SURE THAT THE ROBOT IS SUPPORTED UNDERNEATH - THE LEGS WILL GO LIMP BRIEFLY) 
 ```python
 ssh odroid@10.42.0.1
 roslaunch minitaur_ros minitaur_odroid_nodes.launch
