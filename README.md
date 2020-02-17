@@ -55,6 +55,8 @@ ssh odroid@10.42.0.1
 roslaunch minitaur_ros minitaur_odroid_nodes.launch
 ```
 
-7. You should now be able to control the robot via a controller or through the \cmd_vel topic
+7. You should now be able to control the robot via a controller or through the \cmd_vel topic. You can also use rviz to give the robot waypoints
 
+
+![Interface](images/rviz.png)
 
