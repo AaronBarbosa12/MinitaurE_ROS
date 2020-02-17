@@ -32,6 +32,8 @@ cd (YOUR CATKIN_WS LOCATION)
 catkin_make
 ```
 
+4. Modify the bashrc on BOTH COMPUTERS so that the ROS_IP ROS_MASTER_URI and ROS_HOSTNAME_IP have the correct values 
+
 ## How To Use This Package
 1. Make sure you're connected to the network of the lidar and that of the MINITAUR_COMPUTER
 
