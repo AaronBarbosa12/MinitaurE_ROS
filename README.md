@@ -4,8 +4,10 @@ A package that allows manual and autonomous control of the Minitaur E from Ghost
 ![Robot Image](images/minitaur.jpeg)
 
 # What I've Learned
+* How to use ROS in order to organize my projects into reusable blocks.
+* How to perform Simultaneous Localization And Mapping (SLAM) using ROS. 
 * How to use the Robot Operating System (ROS) in order to send and recieve data over a network
-* How to perform Simultaneous localization and mapping (SLAM) using ROS. 
+* How to send and recieve joystick commands over a USB connection using ROS.
 
 ## Hardware
 * This package was written with the assumption that the Minitaur E uses a [SLAMETECH MAPPER M1M1 (Developer Edition)](https://www.slamtec.com/en/Lidar/Mapper) for autonomous navigation. 
