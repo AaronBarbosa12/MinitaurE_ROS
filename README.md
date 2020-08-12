@@ -5,7 +5,7 @@ Package for manual and autonomous control of the Minitaur E from Ghost Robotics,
 
 ## Requirements
 ## Hardware
-* This SDK was written with the assumption that the Minitaur E uses a [SLAMETECH MAPPER M1M1 (Developer Edition)](https://www.slamtec.com/en/Lidar/Mapper) for autonomous navigation. 
+* This package was written with the assumption that the Minitaur E uses a [SLAMETECH MAPPER M1M1 (Developer Edition)](https://www.slamtec.com/en/Lidar/Mapper) for autonomous navigation. 
 
 ![Mapper Image](images/mapper.png)
 
@@ -51,7 +51,7 @@ roslaunch minitaur_ros minitaur_client_nodes.launch
 
 5. Turn on the minitaur
 
-6. Open another terminal and start the ROS nodes on the onboard computer (MAKE SURE THAT THE ROBOT IS SUPPORTED UNDERNEATH - THE LEGS WILL GO LIMP BRIEFLY) 
+6. Open another terminal and start the ROS nodes on the onboard computer (MAKE SURE THAT THE ROBOT IS SUPPORTED UNDERNEATH - THE LEGS WILL GO LIMP TEMPORARILY) 
 ```python
 ssh odroid@10.42.0.1
 roslaunch minitaur_ros minitaur_odroid_nodes.launch
